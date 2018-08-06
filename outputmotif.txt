@@ -1,0 +1,98 @@
+================initialization：
+TGGTGGTGGTGCGGTGATGGTGC$
+
+
+================before sorting：
+TGGTGGTGGTGCGGTGATGGTGC$
+GGTGGTGGTGCGGTGATGGTGC$
+GTGGTGGTGCGGTGATGGTGC$
+TGGTGGTGCGGTGATGGTGC$
+GGTGGTGCGGTGATGGTGC$
+GTGGTGCGGTGATGGTGC$
+TGGTGCGGTGATGGTGC$
+GGTGCGGTGATGGTGC$
+GTGCGGTGATGGTGC$
+TGCGGTGATGGTGC$
+GCGGTGATGGTGC$
+CGGTGATGGTGC$
+GGTGATGGTGC$
+GTGATGGTGC$
+TGATGGTGC$
+GATGGTGC$
+ATGGTGC$
+TGGTGC$
+GGTGC$
+GTGC$
+TGC$
+GC$
+C$
+$
+
+================after sorting：
+23    $
+16    ATGGTGC$
+22    C$
+11    CGGTGATGGTGC$
+15    GATGGTGC$
+21    GC$
+10    GCGGTGATGGTGC$
+12    GGTGATGGTGC$
+18    GGTGC$
+7     GGTGCGGTGATGGTGC$
+4     GGTGGTGCGGTGATGGTGC$
+1     GGTGGTGGTGCGGTGATGGTGC$
+13    GTGATGGTGC$
+19    GTGC$
+8     GTGCGGTGATGGTGC$
+5     GTGGTGCGGTGATGGTGC$
+2     GTGGTGGTGCGGTGATGGTGC$
+14    TGATGGTGC$
+20    TGC$
+9     TGCGGTGATGGTGC$
+17    TGGTGC$
+6     TGGTGCGGTGATGGTGC$
+3     TGGTGGTGCGGTGATGGTGC$
+0     TGGTGGTGGTGCGGTGATGGTGC$
+
+================after finding LCPA K R P：
+
+AI    SA    LCPA  K     R     P     STRING
+
+0     23    -1    -1    0     -1    $
+1     16    0     7     0     16    ATGGTGC$
+2     22    0     6     0     16    C$
+3     11    1     11    0     11    CGGTGATGGTGC$
+4     15    0     4     0     11    GATGGTGC$
+5     21    1     6     0     15    GC$
+6     10    2     11    0     10    GCGGTGATGGTGC$
+7     12    1     2     0     10    GGTGATGGTGC$
+8     18    4     6     0     12    GGTGC$
+9     7     5     11    0     7     GGTGCGGTGATGGTGC$
+10    4     4     3     1     4     GGTGGTGCGGTGATGGTGC$
+11    1     7     3     2     1     GGTGGTGGTGCGGTGATGGTGC$
+12    13    1     12    0     1     GTGATGGTGC$
+13    19    3     6     0     13    GTGC$
+14    8     4     11    0     8     GTGCGGTGATGGTGC$
+15    5     3     3     1     5     GTGGTGCGGTGATGGTGC$
+16    2     6     3     2     2     GTGGTGGTGCGGTGATGGTGC$
+17    14    0     12    0     2     TGATGGTGC$
+18    20    2     6     0     14    TGC$
+19    9     3     11    0     9     TGCGGTGATGGTGC$
+20    17    2     8     0     9     TGGTGC$
+21    6     6     11    0     6     TGGTGCGGTGATGGTGC$
+22    3     5     3     1     3     TGGTGGTGCGGTGATGGTGC$
+23    0     8     3     2     0     TGGTGGTGGTGCGGTGATGGTGC$
+
+================result：
+
+第4个位置存在长度为6，重复2次的SSR，GGTGGT
+第1个位置存在长度为9，重复3次的SSR，GGTGGTGGT
+第5个位置存在长度为6，重复2次的SSR，GTGGTG
+第2个位置存在长度为9，重复3次的SSR，GTGGTGGTG
+第3个位置存在长度为6，重复2次的SSR，TGGTGG
+第0个位置存在长度为9，重复3次的SSR，TGGTGGTGG
+
+================motif：
+在12 18 7 4 1 的位置上，存在重复5次的SSR：GGTG
+在2 13 19 8 5 的位置上，存在重复5次的SSR：GTG
+在14 20 9 17 6 3 0 的位置上，存在重复7次的SSR：TG
